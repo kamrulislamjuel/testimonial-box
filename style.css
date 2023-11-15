@@ -1,0 +1,135 @@
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.testimonial-top img {
+    max-width: 120px;
+    display: inline-block;
+    margin-top: -30px;
+}
+
+.testimonial-top h3 {
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 25px;
+    color: #333;
+}
+
+.testimonial-top h3 span {
+    opacity: .5;
+    text-transform: none;
+    font-size: 70%;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.testimonial-top {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.single-testimonial-item {
+    font-size: 15px;
+    color: #888;
+    line-height: 1.8;
+    box-shadow: 0 0 10px #a3a3a3;
+    padding: 70px 80px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.testimonial-author-name img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial-author-name {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 360px;
+    overflow-y: scroll;
+}
+
+.testimonial-author-name a {
+    text-decoration: none;
+    color: #555;
+}
+
+.testimonial-author-name h3 {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 10px;
+    max-width: 185px;
+}
+
+.testimonial-author-name h3 span {
+    opacity: .5;
+    text-transform: none;
+    font-size: 80%;
+    display: inline-block;
+    padding-top: 8px;
+}
+
+.testimonial-author-name li {
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.testimonial-wrapper {
+    position: relative;
+}
+
+.testimonial-right-title {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 70px;
+    color: #ecebeb;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    left: -750px;
+    bottom: 485px;
+    width: 400px;
+}
+
+.testimonial-right-title::after {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    height: 2px;
+    width: 100%;
+    background: #ecebeb;
+    content: "";
+}
+
+.testimonial-right-title span {
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    padding-right: 24px;
+}
